@@ -1538,10 +1538,11 @@ pre code {
 }
 
 .site-title {
-	font-family: Long Cang, EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-	font-size: 2em;
-	font-weight: 400;
-	margin: 0
+	font-family: 华文行楷, EB Garamond, Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+	font-size: 4em;
+	margin: 0;
+	font-weight: 100;
+	color: darkturquoise;
 }
 
 .site-subtitle {
@@ -3669,9 +3670,10 @@ mjx-container[display=true]+br {
 }
 
 body {
-	background-image: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/body-bg.png);
+	background-image: url(/images/body-bg.png);
 	background-repeat: repeat;
-	background-attachment: fixed
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
 
 @media (prefers-color-scheme:dark) {
@@ -3681,20 +3683,15 @@ body {
 }
 
 .site-brand-container {
-	background: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/header-bg.jpg);
+	background: url(/images/header-bg.png);
 	background-position: 70% 20%;
 	background-size: cover
 }
 
-.site-title {
-	font-weight: 700
-}
-
 .site-subtitle {
-	font-weight: 700;
 	font-family: "EB Garamond", STKaiti, KaiTi, SimKai, DFKai-SB, "Noto Serif SC";
 	color: var(--brand-color);
-	font-size: .9em
+	font-size: 1.1em
 }
 
 .site-description {
@@ -3976,7 +3973,7 @@ li {
 }
 
 .veditor {
-	background-image: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/comment-bg.png) !important;
+	background-image: url(/images/comment-bg.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: right !important
 }
