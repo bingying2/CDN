@@ -3670,7 +3670,7 @@ mjx-container[display=true]+br {
 }
 
 body {
-	background-image: url(/images/body-bg.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/body-bg.png);
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -3683,7 +3683,7 @@ body {
 }
 
 .site-brand-container {
-	background: url(/images/header-bg.png);
+	background: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/header-bg.png);
 	background-position: 70% 20%;
 	background-size: cover
 }
@@ -3973,7 +3973,7 @@ li {
 }
 
 .veditor {
-	background-image: url(/images/comment-bg.png) !important;
+	background-image: url(https://cdn.jsdelivr.net/gh/bingying2/CDN@master/images/comment-bg.png) !important;
 	background-repeat: no-repeat !important;
 	background-position: right !important
 }
