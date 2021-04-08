@@ -3987,3 +3987,8 @@ li {
 	width: 1.2em !important;
 	display: inline !important
 }
+
+/********************** 看板娘 补丁 *************************/
+#waifu-tips span {
+  color: #8b0000;
+}
